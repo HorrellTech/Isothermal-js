@@ -19,7 +19,7 @@ body {
 }
 
 .sidebar2 {
-  width: 33%;
+  width: 100%;
   border-right: 2px solid #1abc9c;
   padding: 10px;
 }
