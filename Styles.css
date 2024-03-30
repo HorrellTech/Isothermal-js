@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background-color: #0a0f0d;
+  color: #c5e4e7;
+  font-family: 'Arial', sans-serif;
+}
+
+.toolbar {
+  background-color: #0d1a18;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #1abc9c;
+}
+
+.toolbar-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.main-container {
+  display: flex;
+  height: 50vh;
+}
+
+.sidebar {
+  width: 33%;
+  border-right: 2px solid #1abc9c;
+  padding: 10px;
+}
+
+.file-btn {
+  background-color: #0d1a18;
+  color: #c5e4e7;
+  border: none;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
+.file-list-container {
+  background-color: #0a0f0d;
+  height: calc(100% - 40px); /* Height minus the buttons */
+  overflow-y: auto;
+}
+
+.file-list {
+  list-style: none;
+  padding: 0;
+}
+
+.editor-container {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+#editor {
+  height: 100%;
+  color: #c5e4e7;
+}
+
+.canvas-container {
+  height: 50vh;
+  padding: 10px;
+  border-top: 2px solid #1abc9c;
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
+  background-color: #0a0f0d;
+  border: 2px solid #1abc9c;
+}
+
+@media screen and (orientation: portrait) {
+  .main-container {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    height: 33vh;
+    border-right: none;
+    border-bottom: 2px solid #1abc9c;
+  }
+  .editor-container {
+    height: 67vh;
+  }
+}
