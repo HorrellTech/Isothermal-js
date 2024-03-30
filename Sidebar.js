@@ -1,13 +1,13 @@
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
-  document.getElementById("file-list-container").style.display = "block"; 
+  document.getElementById("mySidebar").style.display = "block"; 
 }
 
 function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
-  document.getElementById("file-list-container").style.display = "none"; 
+  document.getElementById("mySidebar").style.display = "none"; 
 }
 
 // Add swipe event listeners
