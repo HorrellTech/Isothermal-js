@@ -1112,7 +1112,7 @@ function sortObjectsByDepth()
     }
 }
 
-/// 2D GRID BASED WORLD
+/// 2D GRID BASED WORLD like terraria
 
 // Create a new grid world
 function gridworld_create(width, height, blockSize, defaultBlockType)
