@@ -120,7 +120,7 @@ function gameRestartCode(c)
 
 function gameRestartEval()
 {
-    var c = document.getElementById('tbcode').value;
+    var c = document.getElementById('textEditor').value;
     //images = img;
 	gameStart();
     execute_string(c);
