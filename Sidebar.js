@@ -1,13 +1,13 @@
 function openNav() {
   document.getElementById("mySidebar").style.width = "33%";
   document.getElementById("main").style.marginLeft = "250px";
-  document.getElementById("mySidebar").style.display = "block"; 
+  document.getElementById("mySidebar").style.visibility = "visible"; 
 }
 
 function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
-  document.getElementById("mySidebar").style.display = "none"; 
+  document.getElementById("mySidebar").style.visibility = "hidden"; 
 }
 
 // Add swipe event listeners
