@@ -538,6 +538,7 @@ function gameObject(x, y, width, height)
     this.active = true;
     this.visible = true;
     
+    // Hotspots are points on object like anchor points we can attatch other objects to
     this.hotspot_x = [];
     this.hotspot_y = [];
 
