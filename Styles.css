@@ -67,7 +67,7 @@ body {
 #canvas {
   width: 100%;
   height: 100%;
-  background-color: #0a0f0d;
+  background-color: #CCCCCC;
   border: 2px solid #1abc9c;
 }
 
@@ -80,6 +80,7 @@ body {
     height: 33vh;
     border-right: none;
     border-bottom: 2px solid #1abc9c;
+    background-color: #CCCCCC;
   }
   .editor-container {
     height: 67vh;
