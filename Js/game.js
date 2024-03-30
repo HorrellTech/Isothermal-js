@@ -504,7 +504,7 @@ function sprite(image, frame_count)
     this.image.src = image;
 }
 
-// Create an new instance of an object
+// Create a new instance of an object
 function instance_create(x, y, object)
 {
     var temp = object.instantiate(x, y);
@@ -513,7 +513,7 @@ function instance_create(x, y, object)
     return(temp);
 }
 
-// Create a new instance of an object
+// Create a new object
 function object_add()
 {
     var temp = new gameObject(0, 0, 0, 0);
