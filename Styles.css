@@ -23,12 +23,6 @@ body {
   height: 50vh;
 }
 
-.sidebar {
-  width: 33%;
-  border-right: 2px solid #1abc9c;
-  padding: 10px;
-}
-
 .file-btn {
   background-color: #0d1a18;
   color: #c5e4e7;
@@ -76,7 +70,6 @@ body {
     flex-direction: column;
   }
   
-  /* styles.css */
 .sidebar {
   height: 100%;
   width: 0;
