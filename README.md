@@ -1,4 +1,4 @@
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](isothermalLogo (20240331111417).png?raw=true)
 
 The idea behind this project is to create a javascript editing tool 
 for my base game engine javascript file. it will have a playground where a person
