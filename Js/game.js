@@ -537,6 +537,9 @@ function gameObject(x, y, width, height)
 
     this.active = true;
     this.visible = true;
+    
+    this.hotspot_x = [];
+    this.hotspot_y = [];
 
     this.x = x;
     this.y = y;
