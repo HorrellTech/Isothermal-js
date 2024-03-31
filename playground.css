@@ -32,7 +32,7 @@ body, html {
   white-space: nowrap;
   margin-top: 50px; /* Adjust based on menubar height */
   margin-left: 4px;
-  margin-right: 4px;
+  margin-right: 8px;
   background-color: #ecf0f1;
   color: #2c3e50;
 }
