@@ -30,13 +30,13 @@ window.addEventListener('touchmove', function(event) {
   
  // if(touch.pageX > 64)
   
-    if (touchX - startTouchX > 100) {
+    /*if (touchX - startTouchX > 100) {
       sidePanel.style.left = '0';
       openSidebar();
     } else if (startTouchX - touchX > 100) {
       sidePanel.style.left = '-250px';
       closeSidebar();
-    }
+    }*/
   
 });
 
@@ -44,9 +44,11 @@ function openSidebar()
 { 
   document.getElementById('overlay').style.display = 'block'; 
   // Additional code to open the sidebar 
+  sidePanel.style.left = '0';
 } 
 function closeSidebar() 
 { 
   document.getElementById('overlay').style.display = 'none'; 
   // Additional code to close the sidebar 
+  sidePanel.style.left = '-250px';
 }
