@@ -85,7 +85,7 @@ body, html {
   height: 100%;
   z-index: 1;
   top: 0;
-  background-color: #455A6f;
+  background-color: #DDDDDD;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
