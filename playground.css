@@ -39,6 +39,7 @@ body, html {
 }
 
 .canvasContainer {
+  width: 100%;
   margin-left: 4px;
   margin-right: 4px;
   margin-bottom: 4px;
