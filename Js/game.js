@@ -1,5 +1,6 @@
 // CONSTANTS
 const canvasId = 'canvasArea';
+const textboxId = 'textbox';
 const pi = Math.PI; // PI
 const self = -1; // The instance which is executing the current block of code
 const other = -2; // The other instance involved in a collision event, or the other instance from a with function
@@ -122,7 +123,7 @@ function gameRestartCode(c)
 
 function gameRestartEval()
 {
-    var c = document.getElementById('textbox').value;
+    var c = document.getElementById(textboxId).value;
     //images = img;
 	gameStart();
     execute_string(c);
