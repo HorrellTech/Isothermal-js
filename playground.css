@@ -79,7 +79,7 @@ body, html {
 }
 
 #sidePanel {
-  position: relative;
+  position: absolute;
   width: 250px;
   left: -250px;
   height: 100%;
