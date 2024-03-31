@@ -42,13 +42,13 @@ window.addEventListener('touchmove', function(event) {
   
  // if(touch.pageX > 64)
   
-    if (touchX - startTouchX > 100) {
+    /*if (touchX - startTouchX > 100) {
       sidePanel.style.left = '0';
       openSidebar();
     } else if (startTouchX - touchX > 100) {
       sidePanel.style.left = '-250px';
       closeSidebar();
-    }
+    }*/
   
 });
 
