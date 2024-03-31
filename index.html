@@ -36,7 +36,7 @@ o.draw = function() //Access the draw function of the object
     }
 }
 
-instance_create(view_wview / 2, view_hview / 2, o); // Create an instance of the object into the center of the room
+var ins = instance_create(view_wview / 2, view_hview / 2, o); // Create an instance of the object into the center of the room
 
 //Access the created instances loop function and make it pulse left to right
 ins.loop = function()
