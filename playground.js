@@ -26,7 +26,7 @@ window.addEventListener('touchstart', function(event) {
 
 window.addEventListener('touchmove', function(event) {
   let touchX = event.touches[0].clientX;
-  if(startTouchX > 32)
+  if(touchx.pagex > 32)
   {
     if (touchX - startTouchX > 50) {
       sidePanel.style.left = '0';
