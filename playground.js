@@ -26,10 +26,10 @@ window.addEventListener('touchstart', function(event) {
 
 window.addEventListener('touchmove', function(event) {
   let touchX = event.touches[0].clientX;
-  let touch = event.touches[0];
+  //let touch = event.touches[0];
   
  // if(touch.pageX > 64)
-  {
+  
     if (touchX - startTouchX > 50) {
       sidePanel.style.left = '0';
       openSidebar();
@@ -37,7 +37,7 @@ window.addEventListener('touchmove', function(event) {
       sidePanel.style.left = '-250px';
       closeSidebar();
     }
-  }
+  
 });
 
 function openSidebar() 
