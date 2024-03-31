@@ -5,6 +5,14 @@ body, html {
   background-color: #2c3e50; /* Nighttime theme color */
 }
 
+#overlay { 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  z-index: 999; /* Behind the sidebar */ display: none; /* Hidden by default */ }
+
 #menubar {
   background-color: #34495e;
   overflow: hidden;
@@ -74,6 +82,7 @@ body, html {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  z-index: 1000; /* Above the overlay
 }
 
 #fileList {
