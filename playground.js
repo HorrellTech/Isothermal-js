@@ -4,6 +4,12 @@ let fileList = [];
 let fileInput = document.createElement('input');
 fileInput.type = 'file';
 
+document.querySelector('.close-btn').addEventListener('click', function() 
+{ 
+  var panel = this.parentElement; 
+  panel.style.display = 'none'; // Or any other logic to collapse the panel 
+});
+
 document.getElementById('addButton').addEventListener('click', function() {
   fileInput.click();
 });
