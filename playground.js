@@ -8,8 +8,13 @@ document.getElementById('addButton').addEventListener('click', function() {
   fileInput.click();
 });
 
-document.getElementById('addButton').addEventListener('click', function() {
-  fileInput.click();
+document.getElementById('menuButton').addEventListener('click', function() {
+  if(panelOpen){
+    closeSidebar();
+  }
+  else{
+    openSidebar();
+  }
 });
 
 fileInput.addEventListener('change', function() {
