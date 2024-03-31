@@ -1,5 +1,5 @@
 // CONSTANTS
-const canvasId = 'canvas';
+const canvasId = 'canvasArea';
 const pi = Math.PI; // PI
 const self = -1; // The instance which is executing the current block of code
 const other = -2; // The other instance involved in a collision event, or the other instance from a with function
