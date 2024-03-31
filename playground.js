@@ -1,6 +1,12 @@
+let panelOpen = false;
+
 let fileList = [];
 let fileInput = document.createElement('input');
 fileInput.type = 'file';
+
+document.getElementById('addButton').addEventListener('click', function() {
+  fileInput.click();
+});
 
 document.getElementById('addButton').addEventListener('click', function() {
   fileInput.click();
@@ -45,10 +51,12 @@ function openSidebar()
   document.getElementById('overlay').style.display = 'block'; 
   // Additional code to open the sidebar 
   sidePanel.style.left = '0';
+  panelOpen = true;
 } 
 function closeSidebar() 
 { 
   document.getElementById('overlay').style.display = 'none'; 
   // Additional code to close the sidebar 
   sidePanel.style.left = '-250px';
+  panelOpen = false;
 }
