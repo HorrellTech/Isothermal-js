@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Ensure the canvas is displayed full screen */
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  canvas {
+    width: 100%;
+    height: 100%;
+    display: block; /* Prevents default margin */
+  }
+</style>
+</head>
+<body>
+
+<canvas id="myCanvas"></canvas>
+
+<script>
+  // Get the canvas element and its context
+  var canvas = document.getElementById('myCanvas');
+  var ctx = canvas.getContext('2d');
+
+  // Function to resize the canvas to full window size
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+
+  // Event listener for window resize
+  window.addEventListener('resize', resizeCanvas, false);
+
+  // Initial resize
+  resizeCanvas();
+
+  // Function to toggle full screen mode
+  function toggleFullScreen() {
+    if (!document.fullscreenElement) {
+      canvas.requestFullscreen().catch(err => {
+        alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+      });
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      }
+    }
+  }
+
+  // Event listener for double click to toggle full screen
+  canvas.addEventListener('dblclick', toggleFullScreen);
+
+  // Example drawing function
+  function draw() {
+    // Clear the canvas
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Draw a red rectangle
+    ctx.fillStyle = 'red';
+    ctx.fillRect(10, 10, 150, 100);
+  }
+
+  // Call the draw function
+  draw();
+</script>
+
+</body>
+</html>
