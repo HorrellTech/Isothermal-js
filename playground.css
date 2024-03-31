@@ -22,6 +22,7 @@ body, html {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 800; 
 }
 
 #menuButton {
@@ -33,6 +34,7 @@ body, html {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  z-index: 800; 
 }
 
 #textbox {
@@ -47,6 +49,7 @@ body, html {
   margin-bottom: 4px;
   background-color: #ecf0f1;
   color: #2c3e50;
+  z-index: 800; 
 }
 
 .canvasContainer {
@@ -65,6 +68,7 @@ body, html {
   background-color: #16a085;
   color: white;
   border: none;
+  z-index: 800; 
 }
 
 #canvasArea {
@@ -73,6 +77,7 @@ body, html {
   margin-right: 4px;
   margin-bottom: 4px;
   background-color: #222232;
+  z-index: 800; 
 }
 
 #sidePanel {
@@ -94,6 +99,7 @@ body, html {
   height: 60%;
   background-color: #ecf0f1;
   overflow-y: auto;
+  z-index: 1001; 
 }
 
 #addButton, #removeButton {
@@ -103,6 +109,7 @@ body, html {
   background-color: #16a085;
   color: white;
   border: none;
+  z-index: 1001; 
 }
 
 /* Responsive adjustments */
