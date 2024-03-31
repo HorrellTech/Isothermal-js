@@ -32,7 +32,7 @@ o.draw = function() //Access the draw function of the object
         draw_set_color(rgb(r * 10 + pulse(1000, 64), r * 10, r * 10));
         draw_circle(this.x + dx, this.y + dy, r, false);
         draw_set_color(c_red);
-        draw_circle(this.x, this.y - 16 + pulse(100, 6), 16, false);
+        draw_circle(this.x, this.y - 16 + pulse(100, 6), 16 + pulse(300, 6), false);
     }
 }
 
