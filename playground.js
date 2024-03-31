@@ -26,7 +26,7 @@ window.addEventListener('touchstart', function(event) {
 
 window.addEventListener('touchmove', function(event) {
   let touchX = event.touches[0].clientX;
-  if (touchX - startTouchX > 50) {
+  if (startTouchX > 32 && touchX - startTouchX > 50) {
     sidePanel.style.left = '0';
     openSidebar();
   } else if (startTouchX - touchX > 50) {
