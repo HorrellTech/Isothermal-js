@@ -29,7 +29,7 @@ o.draw = function() //Access the draw function of the object
         var dx = lengthdir_x(64, d);
         var dy = lengthdir_y(32, d);
         var r = 10 + dy / 10;
-        draw_set_color(rgb(r * 10, r * 10, r * 10));
+        draw_set_color(rgb(r * 10 + pulse(1000, 64), r * 10, r * 10));
         draw_circle(this.x + dx, this.y + dy, r, false);
         draw_set_color(c_red);
         draw_circle(this.x, this.y - 16 + pulse(100, 6), 16, false);
@@ -41,7 +41,8 @@ var ins = instance_create(view_wview / 2, view_hview / 2, o); // Create an insta
 //Access the created instances loop function and make it pulse left to right
 ins.loop = function()
 {
-ins.x = view_wview / 2 + pulse(500, 50);
+    ins.x = view_wview / 2 + pulse(500, 50);
+    ins.y = view_hview / 2 + pulse(1000, 100);
 }
 </textarea>
 
