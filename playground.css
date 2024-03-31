@@ -120,6 +120,8 @@ body, html {
   color: white;
   border: none;
   z-index: 1001; 
+  display: inline-block; 
+  margin-right: 10px;
 }
 
 #removeButton {
@@ -130,6 +132,8 @@ body, html {
   color: white;
   border: none;
   z-index: 1001; 
+  display: inline-block; 
+  margin-right: 10px;
 }
 
 /* Responsive adjustments */
