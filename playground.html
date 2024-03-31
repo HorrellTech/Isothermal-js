@@ -13,7 +13,28 @@
   <button id="menuButton"><img src="menu-icon.png" alt="Menu"></button>
 </div>
 
-<textarea id="textbox" onkeyup='gameRestartEval()'></textarea>
+<textarea id="textbox" onkeyup='gameRestartEval()'>
+  background_color = c_black;
+
+var o = object_add();
+
+o.draw = function()
+{
+    for(var i = 0; i < 360; i += 360 / 10)
+    {
+        var d = i + time_current / 10;
+        var dx = lengthdir_x(64, d);
+        var dy = lengthdir_y(32, d);
+        var r = 10 + dy / 10;
+        draw_set_color(rgb(r * 10, r * 10, r * 10));
+        draw_circle(this.x + dx, this.y + dy, r, false);
+        draw_set_color(c_red);
+        draw_circle(this.x, this.y - 16 + pulse(100, 6), 16, false);
+    }
+}
+
+instance_create(view_wview / 2, view_hview / 2, o);    
+</textarea>
 
 <canvas id="canvasArea"></canvas>
 
