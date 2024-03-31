@@ -11,7 +11,11 @@ body, html {
   left: 0; 
   width: 100%; 
   height: 100%; 
-  z-index: 999; /* Behind the sidebar */ display: none; /* Hidden by default */ }
+  z-index: 999; /* Behind the sidebar */ 
+  display: none; /* Hidden by default */ 
+  background-color: 444444;
+  
+}
 
 #menubar {
   background-color: #34495e;
