@@ -1,8 +1,6 @@
-![alt text](isothermal-logo-update (20240331064923).png)
+![alt text](https://github.com/HorrellTech/Isothermal-js/blob/d85f5b2ec2d0fc468eeae85bd95164d8b744d22f/isothermal-logo-update%20(20240331064923).png?raw)
 
-Have a play around with the Isothermal.js Playground
-
-https://horrelltech.github.io/Isothermal-js/
+Have a play around with the Isothermal.js Playground: https://horrelltech.github.io/Isothermal-js/
 
 The idea behind this project is to create a javascript editing tool 
 for my base game engine javascript file. it will have a playground where a person
