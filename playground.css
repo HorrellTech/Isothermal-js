@@ -79,11 +79,10 @@ body, html {
 }
 
 #sidePanel {
-  position: static;
+  position: relative;
   width: 250px;
   left: -250px;
   height: 100%;
-  z-index: 1;
   top: 0;
   background-color: #4d5f62;
   overflow-x: hidden;
