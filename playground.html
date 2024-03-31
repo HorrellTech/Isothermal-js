@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nighttime Theme Website</title>
+<title>Isothermal.js</title>
 <link rel="stylesheet" href="playground.css">
 </head>
-<body>
+<body onload="gameStart()">
 
 <div id="menubar">
   <button id="menuButton"><img src="menu-icon.png" alt="Menu"></button>
 </div>
 
-<textarea id="textbox"></textarea>
+<textarea id="textbox" onkeyup='gameRestartEval()'></textarea>
 
 <canvas id="canvasArea"></canvas>
 
@@ -23,7 +23,6 @@
 </div>
 
 <script src="playground.js"></script>
+<script type="text/javascript" src="js/game.js"></script>
 
-
-</body>
 </html>
