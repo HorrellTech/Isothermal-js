@@ -1,4 +1,4 @@
-![alt text](https://github.com/HorrellTech/Isothermal-js/blob/96ce3c9bc882ddd107d1b8f260101ab94579bce7/isothermalLogo%20(20240331111417).png?raw=true)
+![alt text](https://github.com/HorrellTech/Isothermal-js/blob/96ce3c9bc882ddd107d1b8f260101ab94579bce7/isothermal-Logo-update%20(20240331111417).png?raw=true)
 
 Have a play around with the Isothermal.js Playground
 
