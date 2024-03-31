@@ -13,7 +13,7 @@ body, html {
   height: 100%; 
   z-index: 999; /* Behind the sidebar */ 
   display: none; /* Hidden by default */ 
-  background-color: #111111aa;
+  background-color: #111111dd;
 }
 
 #menubar {
@@ -87,7 +87,7 @@ body, html {
   background-color: #4d5f62;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 24px;
+  padding-top: 10px;
   z-index: 1000;
 }
 
