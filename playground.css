@@ -14,7 +14,6 @@ body, html {
   z-index: 999; /* Behind the sidebar */ 
   display: none; /* Hidden by default */ 
   background-color: 444444;
-  
 }
 
 #menubar {
@@ -86,7 +85,7 @@ body, html {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  z-index: 1000; /* Above the overlay
+  z-index: 1000;
 }
 
 #fileList {
