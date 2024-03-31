@@ -14,12 +14,15 @@
 </div>
 
 <textarea id="textbox" onkeyup='gameRestartEval()'>
-  background_color = c_black;
+background_color = c_black; //Set the bsckground color to black
 
-var o = object_add();
+var o = object_add(); //Add a new object to the engine
 
-o.draw = function()
+o.draw = function() //Access the draw function of the object
 {
+    // We are going to create a wee circle that smoothly bounces up and down
+    // and 10 other circles circling around the main circle
+    // while changing the size of the other circles adding fake depth
     for(var i = 0; i < 360; i += 360 / 10)
     {
         var d = i + time_current / 10;
@@ -33,7 +36,7 @@ o.draw = function()
     }
 }
 
-instance_create(view_wview / 2, view_hview / 2, o);    
+instance_create(view_wview / 2, view_hview / 2, o); // Create an instance of the object into the center of the room   
 </textarea>
 
 <canvas id="canvasArea"></canvas>
