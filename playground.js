@@ -15,6 +15,7 @@ document.getElementById('menuButton').addEventListener('click', function() {
   else{
     openSidebar();
   }
+  openSidebar();
 });
 
 fileInput.addEventListener('change', function() {
