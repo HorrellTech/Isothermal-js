@@ -32,3 +32,14 @@ window.addEventListener('touchmove', function(event) {
     sidePanel.style.left = '-250px';
   }
 });
+
+function openSidebar() 
+{ 
+  document.getElementById('overlay').style.display = 'block'; 
+  // Additional code to open the sidebar 
+} 
+function closeSidebar() 
+{ 
+  document.getElementById('overlay').style.display = 'none'; 
+  // Additional code to close the sidebar 
+}
