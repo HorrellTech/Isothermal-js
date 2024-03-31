@@ -1,4 +1,4 @@
-![alt text]()
+![alt text](isothermal-logo-update (20240331064923).png)
 
 Have a play around with the Isothermal.js Playground
 
