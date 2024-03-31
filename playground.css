@@ -13,7 +13,7 @@ body, html {
   height: 100%; 
   z-index: 999; /* Behind the sidebar */ 
   display: none; /* Hidden by default */ 
-  background-color: 444444;
+  background-color: #11111166;
 }
 
 #menubar {
