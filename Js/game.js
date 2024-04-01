@@ -117,11 +117,11 @@ document.getElementById('canvasResetButton').addEventListener('click', function(
       gameRestartEval();
 });
 
-function audio_test()
+function audio_test_2()
 {
-  let synth = new Tone.Synth().toDestination();
-  
-  synth.triggerAttackRelease("C4", "8n");
+  //let synth = new Tone.Synth().toDestination();
+  background_color = c_black;
+  //synth.triggerAttackRelease("C4", "8n");
 }
 
 /*
