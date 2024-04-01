@@ -110,7 +110,7 @@ prevent_default_handler = false; // Prevent key or mouse events from interacting
 fullscreen_aspect_ratio = false; // If the canvas size should match the window
 
 document.getElementById('canvasResetButton').addEventListener('click', function() {
-  gameResetEval();
+  gameRestartEval();
 });
 
 /*
