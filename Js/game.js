@@ -118,6 +118,7 @@ document.getElementById('canvasResetButton').addEventListener('click', function(
     execute_string(code);
   });
 */
+/*
 function sleep(ms)
 {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -128,7 +129,7 @@ function sleep_run_code(ms, code)
   sleep(ms).then(() => {
     execute_string(code);
   });
-}
+}*/
 
 function gameRestart()
 {
