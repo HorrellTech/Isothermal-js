@@ -117,6 +117,13 @@ document.getElementById('canvasResetButton').addEventListener('click', function(
       gameRestartEval();
 });
 
+function audio_test()
+{
+  let synth = new Tone.Synth().toDestination();
+  
+  synth.triggerAttackRelease("C4", "8n");
+}
+
 /*
   sleep(ms).then(() => {
     execute_string(code);
