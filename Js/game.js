@@ -1,3 +1,7 @@
+/*
+  This is the main game file for the framework. It handles objects and advanced math functions.
+*/
+
 // CONSTANTS
 const canvasId = 'canvasArea';
 const textboxId = 'textbox';
