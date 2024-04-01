@@ -1,3 +1,4 @@
+import * as Tone from 'tone';
 
 function audio_test()
 {
