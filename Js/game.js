@@ -116,6 +116,9 @@ fullscreen_aspect_ratio = false; // If the canvas size should match the window
 document.getElementById('canvasResetButton').addEventListener('click', function() {
       gameRestartEval();
       audio_test();
+      const synth = new Tone.Synth().toDestination();
+  
+  synth.triggerAttackRelease("C4", "8n");
 });
 
 /*
