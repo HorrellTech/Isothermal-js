@@ -1,6 +1,7 @@
 /*
   This is the main game file for the framework. It handles objects and advanced math functions.
 */
+import * as Tone from 'tone';
 
 // CONSTANTS
 const canvasId = 'canvasArea';
