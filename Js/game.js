@@ -113,6 +113,11 @@ document.getElementById('canvasResetButton').addEventListener('click', function(
   gameResetEval();
 });
 
+function sleep(ms)
+{
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 function gameRestart()
 {
     gameStart(640, 480);
