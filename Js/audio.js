@@ -1,4 +1,4 @@
-import * as Tone from 'tone';
+
 
 //_channels = [];
 //_synths = [];
