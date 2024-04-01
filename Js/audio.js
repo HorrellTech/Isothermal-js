@@ -33,14 +33,14 @@ function audio_add_channel()
   Here we will keep all of the synth related functions
 */
 // Add a new synthesizer to produce a tone
-function audio_synth_add()
+/*function audio_synth_add()
 {
   var synth = new Tone.Synth();
   
   _synths.push(synth);
   
   return(synth);
-}
+}*/
 
 /*function audio_synth_tone(synth, tone = "C4", attack = 0.25, release = "8n")
 {
