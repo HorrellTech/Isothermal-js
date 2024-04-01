@@ -1,7 +1,7 @@
 /*
   This is the main game file for the framework. It handles objects and advanced math functions.
 */
-import * as Tone from 'tone';
+import { Application, Sprite, Assets } from 'Js/pixi.js'; 
 
 // CONSTANTS
 const canvasId = 'canvasArea';
