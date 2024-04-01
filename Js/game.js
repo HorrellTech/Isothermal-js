@@ -148,7 +148,7 @@ function gameRestartEval()
 {
     var c = document.getElementById(textboxId).value;
     //images = img;
-	gameStart();
+	  gameStart();
     execute_string(c);
 }
 
