@@ -44,7 +44,7 @@ function audio_synth_add()
 
 function audio_synth_tone(synth, tone = "C4", attack = 0.25, release = "8n")
 {
-  synth.triggerAttackRelease();
+  synth.triggerAttackRelease(tone, attack, release);
 }
 
 function audio_play()
