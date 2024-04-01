@@ -1,7 +1,7 @@
 import * as Tone from 'tone';
 
-let _channels = [];
-let _synths = [];
+_channels = [];
+_synths = [];
 
 // Test here to make sure it works
 function audio_test()
