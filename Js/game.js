@@ -109,6 +109,10 @@ time_current = new Date().getTime();
 prevent_default_handler = false; // Prevent key or mouse events from interacting with the website and contain only inside canvas
 fullscreen_aspect_ratio = false; // If the canvas size should match the window
 
+document.getElementById('canvasResetButton').addEventListener('click', function() {
+  audio_test();
+});
+
 function gameRestart()
 {
     gameStart(640, 480);
