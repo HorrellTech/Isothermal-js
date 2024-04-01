@@ -2577,7 +2577,6 @@ var vk_0 = 48, vk_1 = 49, vk_2 = 50, vk_3 = 51, vk_4 = 52, vk_5 = 53, vk_6 = 54,
 	
 	function audio_test_2()
 {
-  //let synth = new Tone.Synth().toDestination();
-  background_color = c_black;
-  //synth.triggerAttackRelease("C4", "8n");
+  let synth = new Tone.Synth().toDestination();
+  synth.triggerAttackRelease("C4", "8n");
 }
