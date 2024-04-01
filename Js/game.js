@@ -111,6 +111,7 @@ fullscreen_aspect_ratio = false; // If the canvas size should match the window
 
 document.getElementById('canvasResetButton').addEventListener('click', function() {
   gameRestartEval();
+  audio_test();
 });
 
 /*
