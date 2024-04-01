@@ -2575,8 +2575,3 @@ var vk_0 = 48, vk_1 = 49, vk_2 = 50, vk_3 = 51, vk_4 = 52, vk_5 = 53, vk_6 = 54,
 	vk_subtract = 109, vk_t = 84, vk_tab = 9, vk_u = 85, vk_up = 38, vk_v = 86, vk_w = 87,
 	vk_x = 88, vk_y = 89, vk_z = 90;
 	
-	function audio_test_2()
-{
-  let synth = new Tone.Synth().toDestination();
-  synth.triggerAttackRelease("C4", "8n");
-}
