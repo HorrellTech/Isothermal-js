@@ -1,3 +1,5 @@
+import * as audio 'audio';
+
 // CONSTANTS
 const canvasId = 'canvasArea';
 const textboxId = 'textbox';
